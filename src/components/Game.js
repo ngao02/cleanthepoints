@@ -197,21 +197,21 @@ const Game = () => {
                 </div>
               )
           )}
-        {circlePosition && (
-          <div
-            style={{
-              position: "absolute",
-              top: `${circlePosition.y - 150}px`,
-              left: `${circlePosition.x - 60}px`,
-              width: "60px",
-              height: "60px",
-              borderRadius: "50%",
-              border: "2px solid black",
-              pointerEvents: "none",
-            }}
-          />
-        )}
       </div>
+      {circlePosition && (
+        <div
+          style={{
+            position: "absolute",
+            top: `${circlePosition.y - 30}px`,
+            left: `${circlePosition.x - 30}px`,
+            width: "60px",
+            height: "60px",
+            borderRadius: "50%",
+            border: "2px solid black",
+            pointerEvents: "none",
+          }}
+        />
+      )}
     </div>
   );
 };
