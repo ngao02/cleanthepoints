@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cleanthepoints/static/css/main.0d7b75c4.css",
+    "main.js": "/cleanthepoints/static/js/main.157cee60.js",
+    "static/js/453.8666ec52.chunk.js": "/cleanthepoints/static/js/453.8666ec52.chunk.js",
+    "index.html": "/cleanthepoints/index.html",
+    "main.0d7b75c4.css.map": "/cleanthepoints/static/css/main.0d7b75c4.css.map",
+    "main.157cee60.js.map": "/cleanthepoints/static/js/main.157cee60.js.map",
+    "453.8666ec52.chunk.js.map": "/cleanthepoints/static/js/453.8666ec52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d7b75c4.css",
+    "static/js/main.157cee60.js"
+  ]
+}
