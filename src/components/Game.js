@@ -23,11 +23,17 @@ const Game = () => {
   }, [isRunning]);
 
   const handleStart = () => {
+    const getRandomXPosition = () => {
+      const windowWidth = window.innerWidth;
+      const maxX = windowWidth - 50;
+
+      return Math.random() * maxX;
+    };
     const newPoints = Array.from({ length: inputPoints }, (_, index) => ({
       id: index + 1,
       visible: true,
       color: "white",
-      x: Math.random() * 745,
+      x: getRandomXPosition(),
       y: Math.random() * 445,
     }));
     setPoints(newPoints);
@@ -166,6 +172,7 @@ const Game = () => {
         style={{
           border: "2px solid black",
           height: "500px",
+          width: "100%",
           position: "relative",
           borderRadius: "2px",
         }}
